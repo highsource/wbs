@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="CurrentTimeService"
+	targetNamespace="http://org" xmlns:tns="http://org"
+	xmlns:wrong="http://wrong.org"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <wsdl:types>
+        <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+            <xs:import namespace="http://wrong.org" schemaLocation="slave.wsdl"/>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="forestMsg">
+        <wsdl:part element="wrong:Forest" name="Forest" />
+    </wsdl:message>
+</wsdl:definitions>
+

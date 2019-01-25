@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://wrong.org"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			elementFormDefault="qualified" xmlns="http://wrong.org"
+			xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="Forest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="99" minOccurs="0" name="Apple">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Size" type="xsd:string" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
