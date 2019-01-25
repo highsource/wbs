@@ -6,7 +6,7 @@
     xmlns:jaxws="http://java.sun.com/xml/ns/jaxws">
 
   
-	<jaxws:bindings node="wsdl:definitions/wsdl:types/xs:schema/xs:import[@namespace='http://wrong.org']">
+	<jaxws:bindings node="wsdl:definitions/wsdl:types/xs:schema[@targetNamespace='http://wrong.org']">
    		<jaxb:schemaBindings>
 			<jaxb:package name="org.right" />
    		</jaxb:schemaBindings>

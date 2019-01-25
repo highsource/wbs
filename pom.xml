@@ -37,8 +37,7 @@
 								<wsdlOption>
 									<bindingFiles>
 										<bindingFile>src/main/resource/binding/wsdl.xjb</bindingFile>
-										<bindingFile>src/main/resource/binding/simple.xjb</bindingFile>
-										<bindingFile>src/main/resource/binding/slave.xjb</bindingFile>
+									<bindingFile>src/main/resource/binding/simple.xjb</bindingFile>
 									</bindingFiles>
 
 									<wsdl>src/main/resource/wsdl/basic.wsdl</wsdl>
