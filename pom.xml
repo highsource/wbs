@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>tst</groupId>
-  <artifactId>wbs</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>tst</groupId>
+	<artifactId>wbs</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>wbs</name>
-  <url>http://maven.apache.org</url>
+	<name>wbs</name>
+	<url>http://maven.apache.org</url>
 
-<properties>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<cxf.version>3.2.5</cxf.version>
 		<spring.version>4.3.7.RELEASE</spring.version>
@@ -37,8 +37,6 @@
 								<wsdlOption>
 									<bindingFiles>
 										<bindingFile>src/main/resource/binding/wsdl.xjb</bindingFile>
-										<bindingFile>src/main/resource/binding/simple.xjb</bindingFile>
-										<bindingFile>src/main/resource/binding/slave.xjb</bindingFile>
 									</bindingFiles>
 
 									<wsdl>src/main/resource/wsdl/basic.wsdl</wsdl>
